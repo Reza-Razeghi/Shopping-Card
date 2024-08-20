@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Shabnam";
+  src: url(../assets/fonts/Shabnam.woff) format("woff"),
+    url(../assets/fonts/Shabnam.woff2) format("woff2");
+}
+
+body {
+  font-family: "Shabnam";
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 15px auto;
+  margin-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__title-link {
+  color: rgb(100, 173, 247);
+  font-size: 18px;
+  font-weight: 600;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.header__title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header__title--size {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.main {
+  display: flex;
+  gap: 24px;
+}
+.product {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 22px;
+}
+.product__image {
+  width: 100%;
+}
+.product__title {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 14px;
+  display: flex;
+  cursor: pointer;
+  height: 68px;
+}
+.product__link {
+  color: #37474f;
+  line-height: 1.6;
+}
+.product__offer {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+.product__offer-percent {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 4px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.product__price {
+  text-decoration: line-through;
+  color: #78909c;
+}
+.pric__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.6;
+}
+.product__offer-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+.product__offer-price {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.product__price-unit {
+  font-size: 12px;
+  color: #37474f;
+}
+.product__rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.product__rating-score {
+  font-size: 14px;
+  padding-top: 3px;
+  color: #37474f;
+}
+.product__rating-sign {
+  width: 18px;
+  height: 18px;
+}
